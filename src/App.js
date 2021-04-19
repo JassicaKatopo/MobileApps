@@ -1,10 +1,23 @@
 import React from 'react';
-import Register from './components/pages/Register';
-import UserList from './components/pages/User_List';
-
+import {View, Text, StyleSheet} from 'react-native';
+import Regristrasi from './component/pages/Regristrasi';
 
 const App = () => {
-  return <UserList />;
-}
+  return (
+    <View>
+      <Text style={styles.Title}>Regristrasi</Text>
+      <Regristrasi />
+    </View>
+  );
+};
 
 export default App;
+
+const styles = StyleSheet.create({
+  Title: {
+    fontSize: 36,
+    fontWeight: 'bold',
+    marginHorizontal: 20,
+    marginVertical: 18,
+  },
+});

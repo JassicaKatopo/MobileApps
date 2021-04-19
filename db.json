@@ -1,0 +1,41 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "users": [
+      {
+        "id": 1,
+        "email": "carmeliaaa21@yahxxx.com",
+        "firstName": "Carmelia",
+        "lastName": "Adolong"
+      },
+      {
+        "id": 2,
+        "email": "brigita_07@reqres.in",
+        "firstName": "Brigita",
+        "lastName": "Manopo"
+      },
+      {
+        "id": 3,
+        "email": "jessicakatopo@gmail.com",
+        "firstName": "Jassica",
+        "lastName": "Katopo"
+        
+        
+      }
+    ]
+  }
